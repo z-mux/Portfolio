@@ -25,6 +25,7 @@ header {
     text-transform: uppercase;
     font-weight: 800;
     font-size: 1.8em;
+   
 
 
 
@@ -52,7 +53,7 @@ section {
 }
 
 .main {
-    width: 100;
+    width: 200;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -60,33 +61,50 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    
 
 }
+
+
+
+
+
 
 
 
 .main h1 {
 
-    color : #3a6cf4;
-    font-size: 3em;
-    font-weight: 500;
+    color : #f0f0f0;
+    font-size: 4em;
+    font-weight: 500;    
+    margin: auto;
+   
 
 }
+
+     
+
+
+
 
 .main h2 span {
     color: #ffffff;
     font-size: 3em;
     font-weight: 500;
+    margin: auto;
+    
 }
 
 .main h3 {
 
-    color: #3a6cf4;
+    color: #f0f0f0;
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 10px;
     margin-bottom: 30px;
+    border-radius: 15px;
+    transition: 0.9s ease;
 }
 
 .main-btn {
@@ -113,7 +131,7 @@ section {
 .social-icons a {
 
     color: #fff;
-    font-size: 1.7em;
+    font-size: 1.9em;
     padding-right: 20px;
 
 
@@ -149,6 +167,7 @@ section {
     padding: 25px;
     margin: 15px;
     transition: 0.9s ease;
+    border:2px solid #7564b3;
 
 
 
@@ -157,6 +176,8 @@ section {
 .card:hover {
 
     transform: scale(1.1);
+    background :#bfb0f5;
+    border-color :#bfb0f5;
 
 }
 
@@ -383,3 +404,15 @@ section {
     }
 
 }
+
+
+@media (min-width:950px) and (max-width:1150px) {
+
+     .main .Generic1.jpg {
+         width :330px;
+     }
+}
+
+} 
+
+
